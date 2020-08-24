@@ -9,7 +9,7 @@
   <div class="container post-container">
   <div class="row">
   <main class="col-md-8">
-    <?php default_image(); ?>
+    <?php //default_image(); ?>
     <h1><?php the_title(); ?></h1>
 <div class="categories">
     <?php
@@ -36,7 +36,7 @@
       ?>
   </main>
   <aside class="col-md-4 sidebar">
-    <?php get_sidebar(); ?>
+    <?php get_sidebar('primary'); ?>
   </aside>
 </div>
 
