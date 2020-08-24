@@ -17,6 +17,6 @@
 </head>
 
 
-<body <?php body_class();?> style="padding-top: 4.5rem;">
+<body <?php body_class();?>>
 
     <?php require "nav.php"; ?>
